@@ -1,0 +1,340 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>Marwadi University - Home</title>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+rel="style.css"
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+ <div class="container">
+ <a class="navbar-brand" href="#">Marwadi University</a>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs￾target="#navbarNav"
+ aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNav">
+ <ul class="navbar-nav ms-auto">
+ <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+ <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+ <li class="nav-item"><a class="nav-link" href="#outcomes">Program Outcomes</a></li>
+ <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+ <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+ <li class="nav-item"><a class="nav-link" href="#recruiters">Top Recruiters</a></li>
+ <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+ </ul>
+ </div>
+ </div>
+ </nav>
+ <!-- Hero Section -->
+ <header id="home" class="hero-section text-center">
+ <div class="container">
+ <h1 class="display-4">Welcome to Marwadi University</h1>
+ <p class="lead text-muted">Empowering Students for a Brighter Future</p>
+ <button class="btn btn-primary btn-lg mt-3" onclick="scrollToSection('#vision')">Explore 
+Now</button>
+ </div>
+ </header>
+ <main class="container mb-5">
+ <!-- Vision -->
+ <section id="vision" class="section-animation mb-5">
+ <h2 class="mb-3">Vision</h2>
+ <p>
+ To be a premier institution fostering excellence in education, research, and innovation, 
+shaping leaders for a sustainable future.
+ </p>
+ </section>
+ <!-- Mission -->
+ <section id="mission" class="section-animation mb-5">
+ <h2 class="mb-3">Mission</h2>
+ <ul>
+ <li>Provide quality education that nurtures critical thinking and creativity.</li>
+ <li>Promote research and innovation to address societal challenges.</li>
+ <li>Encourage holistic development and ethical values among students.</li>
+ <li>Collaborate with industry and community for mutual growth.</li>
+ </ul>
+ </section>
+ <!-- Program Specific Outcomes -->
+ <section id="outcomes" class="section-animation mb-5">
+ <h2 class="mb-3">Program Specific Outcomes</h2>
+ <div class="accordion" id="outcomesAccordion">
+ <div class="accordion-item">
+ <h2 class="accordion-header">
+ <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs￾target="#outcome1">
+ 1. Graduates will demonstrate strong foundational knowledge in their respective fields.
+ </button>
+ </h2>
+ <div id="outcome1" class="accordion-collapse collapse show" data-bs￾parent="#outcomesAccordion">
+ <div class="accordion-body">
+ Through rigorous curriculum and practical training, students build expertise in core 
+subjects.
+ </div>
+ </div>
+ </div>
+ <div class="accordion-item">
+ <h2 class="accordion-header">
+ <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data￾bs-target="#outcome2">
+ 2. Apply theoretical concepts to practical problems effectively.
+ </button>
+ </h2>
+ <div id="outcome2" class="accordion-collapse collapse" data-bs￾parent="#outcomesAccordion">
+ <div class="accordion-body">
+ Projects and internships help bridge the gap between theory and real-world application.
+ </div>
+ </div>
+ </div>
+ <div class="accordion-item">
+ <h2 class="accordion-header">
+ <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data￾bs-target="#outcome3">
+ 3. Exhibit teamwork, leadership, and communication skills.
+ </button>
+ </h2>
+ <div id="outcome3" class="accordion-collapse collapse" data-bs￾parent="#outcomesAccordion">
+ <div class="accordion-body">
+ Group activities and seminars develop interpersonal and presentation abilities.
+ </div>
+ </div>
+ </div>
+ <div class="accordion-item">
+ <h2 class="accordion-header">
+ <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data￾bs-target="#outcome4">
+ 4. Engage in lifelong learning and professional development.
+ </button>
+ </h2>
+ <div id="outcome4" class="accordion-collapse collapse" data-bs-
+parent="#outcomesAccordion">
+ <div class="accordion-body">
+ Workshops and certifications encourage continuous skill enhancement.
+ </div>
+ </div>
+ </div>
+ <div class="accordion-item">
+ <h2 class="accordion-header">
+ <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data￾bs-target="#outcome5">
+ 5. Contribute ethically and responsibly to society and environment.
+ </button>
+ </h2>
+ <div id="outcome5" class="accordion-collapse collapse" data-bs￾parent="#outcomesAccordion">
+ <div class="accordion-body">
+ Courses on ethics and sustainability promote responsible citizenship.
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ 
+ <section id="courses" class="section-animation mb-5">
+ <h2 class="mb-3">Courses Offered</h2>
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+ <div class="col">
+ <div class="card h-100 shadow-sm">
+ <div class="card-body">
+ <h5 class="card-title">Bachelor of Computer Science</h5>
+ <p class="card-text">Focus on software development, algorithms, and data 
+structures.</p>
+ <button class="btn btn-primary" onclick="alert('More details coming soon!')">Learn 
+More</button>
+ </div>
+ </div>
+ </div>
+ <div class="col">
+ <div class="card h-100 shadow-sm">
+ <div class="card-body">
+ <h5 class="card-title">Bachelor of Mechanical Engineering</h5>
+ <p class="card-text">Study of mechanics, thermodynamics, and manufacturing 
+processes.</p>
+ <button class="btn btn-primary" onclick="alert('More details coming soon!')">Learn 
+More</button>
+ </div>
+ </div>
+ </div>
+ <div class="col">
+ <div class="card h-100 shadow-sm">
+ <div class="card-body">
+ <h5 class="card-title">Bachelor of Business Administration</h5>
+ <p class="card-text">Covers management principles, marketing, and finance.</p>
+ <button class="btn btn-primary" onclick="alert('More details coming soon!')">Learn 
+More</button>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section id="gallery" class="section-animation mb-5">
+ <h2 class="mb-3">Image Gallery of Events</h2>
+ <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+ <div class="carousel-indicators">
+ <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" 
+class="active"></button>
+ <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1"></button>
+ <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"></button>
+ <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3"></button>
+ </div>
+ <div class="carousel-inner">
+ <div class="carousel-item active">
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/538f378e-f92d-44d2-a72e-60dfe8d64e3d.png" class="d-block w-100 
+gallery-img" alt="Group of students participating in a university cultural festival with colorful 
+decorations, traditional dances, and lively music performances on stage" data-bs-toggle="modal" 
+data-bs-target="#imageModal" data-src="https://storage.googleapis.com/workspace-0f70711f-
+8b4e-4d94-86f1-2a93ccde5887/image/538f378e-f92d-44d2-a72e-60dfe8d64e3d.png" />
+ <div class="carousel-caption d-none d-md-block">
+ <h5>Cultural Festival</h5>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/5c28e0a3-3a80-42ef-900a-56e71fa52cf8.png" class="d-block w-100 
+Khanpara Mishree (92400120526) 13
+FACULTY OF ENGINEERING AND TECHNOLOGY
+Department of Computer Engineering 
+01CE1306– Web Technology Lab#8
+gallery-img" alt="Engineering students showcasing robotics projects during a tech exhibition, 
+with booths displaying innovative gadgets and interactive demos" />
+ <div class="carousel-caption d-none d-md-block">
+ <h5>Tech Exhibition</h5>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/a8e7be93-b668-4f43-b21a-4661ce8bfe37.png" class="d-block w-100 
+gallery-img" alt="Graduation ceremony audience clapping as graduates receive diplomas, with 
+academic regalia and joyful expressions" />
+ <div class="carousel-caption d-none d-md-block">
+ <h5>Graduation Day</h5>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/8f8cb082-4085-4670-a800-acb634eab993.png" class="d-block w-100 
+gallery-img" alt="Sports tournament players in uniforms competing in a football match on a 
+green field with cheering spectators" />
+ <div class="carousel-caption d-none d-md-block">
+ <h5>Sports Tournament</h5>
+ </div>
+ </div>
+ </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" 
+data-bs-slide="prev">
+ <span class="carousel-control-prev-icon"></span>
+ </button>
+ <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" 
+data-bs-slide="next">
+ <span class="carousel-control-next-icon"></span>
+ </button>
+ </div>
+ </section>
+ <section id="recruiters" class="section-animation mb-5">
+ <h2 class="mb-3">Top Recruiters</h2>
+ <div class="d-flex flex-wrap justify-content-center align-items-center">
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/3c73f5f1-3559-4e04-a5fc-cb8a693b9e53.png" alt="Official Microsoft 
+company logo in blue and white colors representing software technology and innovation" 
+class="recruiter-logo" onclick="alert('Microsoft - Leading in software innovation!')" />
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/e4109f19-e450-47b0-b559-7ac4ccb5b552.png" alt="Official Google 
+company logo with colorful letters G-O-O-G-L-E symbolizing search engine and tech giant" 
+class="recruiter-logo" onclick="alert('Google - Search and beyond!')" />
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/9c289772-9f65-41bb-9122-0331e429184d.png" alt="Official IBM 
+company logo with blue letters and stripes representing computing and business solutions" 
+class="recruiter-logo" onclick="alert('IBM - Computing for a smarter planet.')" />
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/dab8f8bf-b902-4d2d-9ffd-b7237a758e2d.png" alt="Official Infosys 
+company logo in blue with stylized 'i' symbolizing IT consulting and services" class="recruiter￾logo" onclick="alert('Infosys - IT consulting & services.')" />
+ <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-
+2a93ccde5887/image/3605f05a-e366-497f-ab62-94e3c2f5042e.png" alt="Official TCS company 
+logo with red and blue colors representing Tata Consultancy Services" class="recruiter-logo" 
+onclick="alert('TCS - Tata Consultancy Services.')" />
+ </div>
+ </section>
+ 
+ <section id="contact" class="section-animation mb-5">
+ <h2 class="mb-3">Contact Us</h2>
+ <form class="contact-form">
+ <div class="row">
+ <div class="col-md-6">
+ <input type="text" id="name" class="form-control" placeholder="Your Name" required />
+ <input type="email" id="email" class="form-control" placeholder="Your Email" required 
+/>
+ </div>
+ <div class="col-md-6">
+ <textarea id="message" class="form-control" rows="4" placeholder="Your Message" 
+required></textarea>
+ </div>
+ </div>
+ <button type="submit" class="btn btn-primary">Send Message</button>
+ </form>
+ </section>
+ </main>
+ <!-- Modal for Image Gallery -->
+ <div class="modal fade" id="imageModal" tabindex="-1">
+ <div class="modal-dialog modal-lg">
+ <div class="modal-content">
+ <div class="modal-body">
+ <img id="modalImage" src="" class="img-fluid" alt="" />
+ </div>
+ </div>
+ </div>
+ </div>
+ <button class="back-to-top" id="backToTop">↑</button>
+ <footer class="bg-primary text-white text-center py-3">
+ <div class="container">
+ © 2024 Marwadi University. All rights reserved.
+ </div>
+ </footer>
+ <script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script>
+ function scrollToSection(sectionId) {
+ document.querySelector(sectionId).scrollIntoView({ behavior: 'smooth' });
+ }
+ 
+ function animateSections() {
+ const sections = document.querySelectorAll('.section-animation');
+ sections.forEach(section => {
+ const rect = section.getBoundingClientRect();
+ if (rect.top < window.innerHeight * 0.8) {
+ section.classList.add('section-active');
+ }
+ });
+ }
+ function toggleBackToTop() {
+ const backToTop = document.getElementById('backToTop');
+ if (window.scrollY > 300) {
+ backToTop.style.display = 'block';
+ } else {
+ backToTop.style.display = 'none';
+ }
+ }
+ document.querySelector('.contact-form').addEventListener('submit', function(e) {
+ e.preventDefault();
+ alert('Thank you for your message! We will get back to you soon.');
+ this.reset();
+ });
+ document.getElementById('imageModal').addEventListener('show.bs.modal', function (event) 
+{
+ const img = event.relatedTarget;
+ const src = img.getAttribute('data-src') || img.src;
+ document.getElementById('modalImage').src = src;
+ document.getElementById('modalImage').alt = img.alt;
+ });
+ window.addEventListener('scroll', () => {
+ animateSections();
+ toggleBackToTop();
+ });
+ document.getElementById('backToTop').addEventListener('click', () => {
+ window.scrollTo({ top: 0, behavior: 'smooth' });
+ });
+ document.addEventListener('DOMContentLoaded', () => {
+ animateSections();
+ toggleBackToTop();
+ });
+ </script>
+</body>
+</html>
+</content>
+</create_file>
